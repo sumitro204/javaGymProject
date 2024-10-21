@@ -1,0 +1,50 @@
+/* Add styles to make the layout more flexible */
+/* .left-r {
+    flex: 1;
+    padding: 20px;
+} */
+.left-r{
+    
+    padding-top: 1.5rem;
+    flex: 3;
+    display : flex;
+    gap: 2rem;
+    
+}
+
+.right-r {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+    align-items: center;
+    
+}
+
+.message {
+    margin-top: 40px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Head {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.gym1 {
+    height: 500px;
+    width: 400px;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}

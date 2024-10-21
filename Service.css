@@ -1,0 +1,56 @@
+.programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: black;
+  }
+  
+  .program-card {
+    background-color:rgb(226, 233, 238);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem; /* Adjusted padding */
+    width: 350px; /* Adjusted width */
+    height: 450px; /* Added height */
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .program-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: black;
+    font-style: italic;
+  }
+  
+  .join-now-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
+  
+  .join-now-button:hover {
+    background-color: #0056b3;
+  }
+ 

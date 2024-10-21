@@ -1,0 +1,97 @@
+/* General layout and styling for the registration form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.section-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.grid-two-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.registration-image img {
+    border-radius: 10px;
+}
+
+.registration-form {
+    padding: 20px;
+}
+
+.main-heading {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border-color: white;
+}
+
+.btn-submit {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .grid-two-cols {
+        grid-template-columns: 1fr;
+    }
+    .registration-image {
+        display: none;
+    }
+}

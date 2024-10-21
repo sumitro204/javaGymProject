@@ -1,0 +1,58 @@
+/* Ensure the entire page background is black */
+body {
+    background-color: black;
+  }
+  
+  .section-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f2f5; */
+  }
+  
+  .container {
+    display: flex;
+    width: 70%;
+    background: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .registration-image {
+    flex: 1;
+  }
+  
+  .registration-form {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1877f2;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
